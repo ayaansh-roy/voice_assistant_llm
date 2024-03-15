@@ -1,4 +1,4 @@
-# Build Real-Time AI Voice Assistant With RAG Pipeline And Memory | Mistral LLM | Ollama
+# Voice Assistant with AI Interaction
 
 This repository contains code for a voice assistant that interacts with an AI model for natural language understanding (NLU). The assistant is designed to record audio input from users, transcribe it, and then interact with the AI model to provide relevant responses.
 
@@ -27,7 +27,7 @@ Before running the code, ensure you have the following dependencies installed:
    ```bash
    git clone git@github.com:ayaansh-roy/voice_assistant_llm.git
 
-2.  Install the dependencies using pip.
+2. Install the dependencies using pip.
 
    ```bash
    pip install -r requirements.txt
