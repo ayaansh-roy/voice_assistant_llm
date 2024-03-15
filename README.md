@@ -13,11 +13,9 @@ This repository contains code for a voice assistant that interacts with an AI mo
 
 Before running the code, ensure you have the following dependencies installed:
 
-- Python 3.x
+- Python above 3.8
 - `pyaudio`
 - `numpy`
-- `scipy`
-- `wave`
 - `faster_whisper` (Installable via pip)
 - `qdrant_client` (Installable via pip)
 - Other dependencies specified in `requirements.txt`
@@ -27,15 +25,17 @@ Before running the code, ensure you have the following dependencies installed:
 1. Clone this repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/voice-assistant.git
+   git clone git@github.com:ayaansh-roy/voice_assistant_llm.git
 
 2.  Install the dependencies using pip.
 
-```pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
-3. Run the main script voice_assistant.py.
+3. Run the main script app.py.
 
-```python voice_assistant.py
+   ```bash
+   python app.py
 
 4. Follow the prompts to interact with the voice assistant. Speak into the microphone when prompted.
 
@@ -43,13 +43,13 @@ Before running the code, ensure you have the following dependencies installed:
 - You can adjust the default model size and chunk length in the script as per your requirements.
 - Modify the paths and settings related to the knowledge base and AI model if needed.
 
-### Notes
+## Notes
 - Ensure that your system's microphone is correctly configured and accessible by the script.
 - Make sure to handle exceptions and errors gracefully, especially during audio recording and transcription processes.
 
-### License
+## License
 - This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Acknowledgments
+## Acknowledgments
 - The AI model used in this project is based on faster_whisper.
 - Special thanks to the developers of pyaudio, numpy, and scipy for their contributions.
